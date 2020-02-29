@@ -1,1 +1,3 @@
-# kickstarter-analysis
+# Analysis of Kickstarter Dat
+
+Lol
