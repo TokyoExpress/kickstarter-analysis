@@ -1,3 +1,5 @@
-# Analysis of Kickstarter Dat
+# Optimizing Crowdfunding Strategy
 
-Lol
+## Analysis and Prediction of Successful Kickstarter Projects
+
+***Team***
