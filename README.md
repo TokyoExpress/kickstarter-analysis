@@ -31,7 +31,6 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 * [Statistical Models and Analysis]
 * [Machine Learning]
 * [Relevant Conclusions and Applications]
-* [Next Steps]
-
+* [Next Steps]<br /><br />
 
 ## Prepping Data
