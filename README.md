@@ -2,8 +2,8 @@
 
 ***Team***
 <ul>
-  <li><strong>Samuel Guo</strong></li>
-  <li><strong>Joanna Kim</strong></li>
-  <li><strong>Spencer Zou</strong></li>
-  <li><strong>Brandon Lee</strong></li>
+  <li><strong>Samuel Guo</strong> (Financial Mathematics and Statistics)</li>
+  <li><strong>Joanna Kim</strong> (Financial Mathematics and Statistics)</li>
+  <li><strong>Spencer Zou</strong> (Computer Science)</li>
+  <li><strong>Brandon Lee</strong> (Statistics and Data Science)</li>
 </ul>
