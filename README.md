@@ -2,7 +2,7 @@
 
 ***Team***
 <ul>
-  <li>*Samuel Guo*</li>
+  <li><strong>Samuel Guo</strong></li>
   <li>*Joanna Kim*</li>
   <li>*Spencer Zou*</li>
   <li>*Brandon Lee*</li>
