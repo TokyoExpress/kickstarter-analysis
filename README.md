@@ -25,11 +25,11 @@ On the technical side, the project is done in **R** and **Python**, as is standa
 Kickstarter has been one of the premiere crowdfunding platforms since its launch in 2009. It is now home to over 445,000 successfully backed projects. While crowdfunding remains a great resource for any aspiring product designers and entrepreneurs, taking care of a campaign still requires a decently significant amount of time and money, with no guarantee or indicator of success. This project attempts to provide potential campaign managers with information and insight that can be used to maximize the probability of success for a certain project, as well as provide areas of interest that can later be researched further by the project manager.
 
 ***Table of Contents***
-<a href="one">Prepping Data</a>
-<a href="two">Exploratory Insights</a>
-<a href="three">Statistical Models and Analysis</a>
-<a href="four">Machine Learning</a>
-<a href="five">Relevant Conclusions and Applications</a>
-<a href="six">Next Steps</a>
+<a href="one">Prepping Data</a><br />
+<a href="two">Exploratory Insights</a><br />
+<a href="three">Statistical Models and Analysis</a><br />
+<a href="four">Machine Learning</a><br />
+<a href="five">Relevant Conclusions and Applications</a><br />
+<a href="six">Next Steps</a><br />
 
 <a name="one">## Pre
