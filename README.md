@@ -33,4 +33,6 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 * [Relevant Conclusions and Applications]
 * [Next Steps]
 
+<br /><br />
+
 ## Prepping Data
