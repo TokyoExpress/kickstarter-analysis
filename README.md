@@ -37,11 +37,15 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 
 ## Prepping Data
 
+The raw data for this project comes from Kaggle: (put link here).
+
+Some bullshit about how we cleaned it. CAtegorical variables and encoding and changing the time variables etc whatever fill this out tomorrow
+
+## Exploratory Insight
+
 ![](https://imgur.com/agodkO1.png)
 ![](https://imgur.com/aHOTE8h.png)
 ![](https://imgur.com/h1uukuy.png)
-
-## Exploratory Insight
 
 ## Statistical Models and Analysis
 
