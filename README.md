@@ -37,7 +37,7 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 
 ## Prepping Data
 
-![](https://imgur.com/agodkO1.png)
+![](https://imgur.com/agodkO1.png =100x20)
 ![](https://imgur.com/aHOTE8h.png)
 ![](https://imgur.com/h1uukuy.png)
 
