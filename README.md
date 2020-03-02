@@ -47,6 +47,10 @@ Some bullshit about how we cleaned it. CAtegorical variables and encoding and ch
 ![](https://imgur.com/aHOTE8h.png)
 ![](https://imgur.com/h1uukuy.png)
 
+and that's about as pretty as the graphs get.
+
+![](https://imgur.com/b6cZKf8.png)
+
 ## Statistical Models and Analysis
 
 ## Machine Learning
