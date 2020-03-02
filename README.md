@@ -46,7 +46,8 @@ Some bullshit about how we cleaned it. CAtegorical variables and encoding and ch
 ![](https://imgur.com/agodkO1.png)
 ![](https://imgur.com/aHOTE8h.png)
 ![](https://imgur.com/h1uukuy.png)
-![](https://imgur.com/ovc1kgJ.png)
+![](https://imgur.com/s4Zj6dG.png)
+![](https://imgur.com/gAV8ptM.png)
 
 and that's about as pretty as the graphs get.
 
