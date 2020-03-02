@@ -29,10 +29,20 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 ***Table of Contents***
 
 * [Prepping Data](#prepping-data)
-* [Exploratory Insights]
-* [Statistical Models and Analysis]
-* [Machine Learning]
-* [Relevant Conclusions and Applications]
-* [Next Steps]<br /><br />
+* [Exploratory Insight](#exploratory-insight)
+* [Statistical Models and Analysis](#statistical-models-and-analysis)
+* [Machine Learning](#machine-learning)
+* [Relevant Conclusions and Applications](#relevant-conclusions-and-applications)
+* [Next Steps](#next-steps)<br /><br />
 
 ## Prepping Data
+
+## Exploratory Insight
+
+## Statistical Models and Analysis
+
+## Machine Learning
+
+## Relevant Conclusions and Applications
+
+## Next Steps
