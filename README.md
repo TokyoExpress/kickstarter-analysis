@@ -1,3 +1,5 @@
+![Grabber](https://imgur.com/JHoKyFN)
+
 # Analysis and Prediction of Successful Kickstarter Projects
 
 ***Team***
