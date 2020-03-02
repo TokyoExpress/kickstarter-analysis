@@ -1,4 +1,4 @@
-![Grabber](https://imgur.com/JHoKyFN)
+![Grabber](https://i.imgur.com/JHoKyFN.png)
 
 # Analysis and Prediction of Successful Kickstarter Projects
 
