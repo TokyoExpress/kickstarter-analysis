@@ -58,6 +58,7 @@ The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkant
   <li>End Month</li>
   <li>Start Quarter</li>
   <li>End Quarter</li>
+  <li>Status (Successful/Failed)</li>
   <li>Amount Pledged in USD</li>
 </ul>
 
@@ -78,6 +79,7 @@ After removing multicollinearity and irrelevant variables, we were left with the
   <li><strong>Blurb Length</strong></li>
   <li><strong>Name Length</strong></li>
   <li><strong>Start Month</strong></li>
+  <li><strong>Status (Successful/Failed)</strong></li>
 </ul>
 
 One final issue that would come up eventually was the discrepancy in success to failure ratio between our sample data and the population, which would lead to some trouble down the road in the Machine Learning section.
@@ -116,6 +118,10 @@ This graph displaying the relationship between starting month and success/failur
 
 ## Statistical Models and Analysis
 
+Running multilinear regression on a binary response variable usually leads to muddled and not-too-impressive results, so the next question for us was: how can you quantify success or failure?
+
+To answer that question, we replaced the Status variable with 
+
 ![](https://imgur.com/b6cZKf8.png)
 ![](https://imgur.com/6KLe9v2.png)
 
@@ -124,4 +130,3 @@ This graph displaying the relationship between starting month and success/failur
 ## Relevant Conclusions and Applications
 
 ## Next Steps
-In conclusion, our regression models and random forest machine learning do a mediocre job at predicting. There are no strong correlations that point to any solid conclusions and the machine learning predictions have a couple of false postives and false negatives. In the future, we will learn how to use different models to derive more evidence towards concrete results. To make the significance of our project outcome more convincing, we are planning to learn how to analyze our statistical models in greater depth, allowing us to better communicate any conclusions we are able to deduce. 
