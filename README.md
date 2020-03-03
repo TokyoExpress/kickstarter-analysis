@@ -102,13 +102,15 @@ The percentage of success and failure will be more indicative of what leads to a
 
 ![](https://imgur.com/h1uukuy.png)
 
-The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters. Interestingly, the mode goal of successful and failed kickstarters were both the same at $5000.
+The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters. Interestingly, however, the mode goal of successful and failed kickstarters were both the same at $5000.
 
 ![](https://imgur.com/s4Zj6dG.png)
 
-Based on the means of name length and blurb length, there seems to be little to no correlation between name length and kickstarter success or blurb length and kickstarter success, as the means of name length and blurb length for successes and the means of name length and blurb length for failures are quite similar.
+Based on the means of name length and blurb length, there seems to be little to no correlation between name length and success or blurb length and success, as the means of name length and blurb length for successes and the means of name length and blurb length for failures are quite similar.
 
 ![](https://imgur.com/gAV8ptM.png)
+
+This graph displaying the relationship between starting month and success/failure seems to indicate that the starting month of a kickstarter project may be influential in determining its success, as the the proportions of success for each month varies considerably. The starting months that seem to have the lowest proportions of success are (1) December, (2) July, and (3) August. It is also worth noting that in general less kickstarters seem to be started during the period of December to February.
 
 and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
 
