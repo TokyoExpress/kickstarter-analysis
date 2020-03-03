@@ -37,9 +37,31 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 
 ## Prepping Data
 
-The raw data for this project comes from Kaggle: (put link here).
+The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkantharia/kickstarter-campaigns/data. It's a 32 MB dataset with 170731 unique projects, along with the following variables:
 
-Some bullshit about how we cleaned it. CAtegorical variables and encoding and changing the time variables etc whatever fill this out tomorrow
+<ul>
+  <li>ID</li>
+  <li>Name</li>
+  <li>Currency</li>
+  <li>Main Category</li>
+  <li>Subcategory</li>
+  <li>Launch Time</li>
+  <li>Deadline</li>
+  <li>Duration</li>
+  <li>Goal in USD</li>
+  <li>City</li>
+  <li>State</li>
+  <li>Country</li>
+  <li>Blurb Length</li>
+  <li>Name Length</li>
+  <li>Start Month</li>
+  <li>End Month</li>
+  <li>Start Quarter</li>
+  <li>End Quarter</li>
+  <li>Amount Pledged in USD</li>
+</ul>
+
+![](https://imgur.com/8bmUfLs.png)
 
 ## Exploratory Insight
 
