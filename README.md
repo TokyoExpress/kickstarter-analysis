@@ -124,7 +124,7 @@ To answer that question, we replaced the Status variable with Percentage Funded,
 
 We began by generating scatter matrixes and heatmaps to give us an idea of which variables were most likely to prove useful in the model. And because we were careless, we realized that we forgot to remove Launch Time because it was heavily intertwined with Start Month, as shown below in the scatter matrix.
 
-![](https://imgur.com/b6cZKf8.png)
+![](https://imgur.com/ONWAYQR.png)
 ![](https://imgur.com/6KLe9v2.png)
 
 ## Machine Learning
