@@ -61,10 +61,30 @@ The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkant
   <li>Amount Pledged in USD</li>
 </ul>
 
+Duplicate rows were removed and time-and-date formats for Launch Time and Deadline were converted to simple numbers in Excel. Somehow, there were no missing values for any of the 170,731 projects. With the dataset cleaned, we then moved on to narrowing down the variables.
+
+Many of the variables were easy to identify as being correlated with other variables. For example, Launch Time had a direct relationship with Deadline through the Duration variable (and the same for Start Month and End Month, which also happened to be closely related to Start Quarter and End Quarter). Similarly, City, State, Currency, and Country also shared a relationship, and Currency was an obvious choice for removal. City and State were also ultimately removed due to the lack of data within most of the levels. More on that in the next section.
+
+Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentange Funded. More on that in the next section as well. 
+
+After removing multicollinearity and irrelevant variables, we were left with the following model to start with:
+
+<ul>
+  <li><strong>Main Category</strong></li>
+  <li><strong>Launch Time</strong></li>
+  <li><strong>Duration</strong></li>
+  <li><strong>Goal in USD</strong></li>
+  <li><strong>Country</strong></li>
+  <li><strong>Blurb Length</strong></li>
+  <li><strong>Name Length</strong></li>
+  <li><strong>Start Month</strong></li>
+</ul>
+
 ![](https://imgur.com/8bmUfLs.png)
 
 ## Exploratory Insight
 
+![](https://imgur.com/Sfp9Oad.png)
 ![](https://imgur.com/agodkO1.png)
 ![](https://imgur.com/aHOTE8h.png)
 ![](https://imgur.com/h1uukuy.png)
