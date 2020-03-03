@@ -65,7 +65,7 @@ Duplicate rows were removed and time-and-date formats for Launch Time and Deadli
 
 Many of the variables were easy to identify as being correlated with other variables. For example, Launch Time had a direct relationship with Deadline through the Duration variable (and the same for Start Month and End Month, which also happened to be closely related to Start Quarter and End Quarter). Similarly, City, State, Currency, and Country also shared a relationship, and Currency was an obvious choice for removal. City and State were also ultimately removed due to the lack of data within most of the levels. More on that in the next section.
 
-Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentange Funded. More on that in the next section as well. 
+Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentage Funded. More on that in the next section as well. 
 
 After removing multicollinearity and irrelevant variables, we were left with the following model to start with:
 
