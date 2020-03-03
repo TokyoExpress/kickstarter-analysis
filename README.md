@@ -98,9 +98,12 @@ The categories with the highest amount of successes are (1) music, (2) film & vi
 
 ![](https://imgur.com/aHOTE8h.png)
 
-The percentage of success and failure will be more indicative of what leads to a successful kickstarter. Although music, film & video, and publishing had the highest success count, (1) comics, (2) dance, (3) publishing have the highest percentage of success. The kickstarters with the highest percentage of failure are (1) food, (2) journalism, (3) technology. There are some similarities with the percentage of success and failure verses the literal count of success and failure. Comics have the highest percentage of success while food has the highest percentage of failure. 
+The percentage of success and failure will be more indicative of what leads to a successful kickstarter. Although music, film & video, and publishing had the highest success count, (1) comics, (2) dance, (3) publishing have the highest percentage of success. The kickstarters with the highest percentage of failure are (1) food, (2) journalism, (3) technology. There are some similarities with the percentage of success and failure versus the literal count of success and failure. Comics have the highest percentage of success while food has the highest percentage of failure. 
 
 ![](https://imgur.com/h1uukuy.png)
+
+The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters.
+
 ![](https://imgur.com/s4Zj6dG.png)
 ![](https://imgur.com/gAV8ptM.png)
 
