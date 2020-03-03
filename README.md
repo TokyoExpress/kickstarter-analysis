@@ -112,7 +112,7 @@ Based on the means of name length and blurb length, there seems to be little to 
 
 This graph displaying the relationship between starting month and success/failure seems to indicate that the starting month of a kickstarter project may be influential in determining its success, as the the proportions of success for each month varies considerably. The starting months that seem to have the lowest proportions of success are (1) December, (2) July, and (3) August. It is also worth noting that in general less kickstarters seem to be started during the period of December to February.
 
-and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
+...and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
 
 ## Statistical Models and Analysis
 
