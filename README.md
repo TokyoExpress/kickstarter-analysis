@@ -80,7 +80,11 @@ After removing multicollinearity and irrelevant variables, we were left with the
   <li><strong>Start Month</strong></li>
 </ul>
 
+One final issue that would come up eventually was the discrepancy in success to failure ratio between our sample data and the population, which would lead to some trouble down the road in the Machine Learning section.
+
 ![](https://imgur.com/8bmUfLs.png)
+
+But leaving that foreshadowing for now, we pressed on into looking for initial trends in Exploratory Insight.
 
 ## Exploratory Insight
 
