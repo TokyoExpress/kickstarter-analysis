@@ -49,11 +49,12 @@ Some bullshit about how we cleaned it. CAtegorical variables and encoding and ch
 ![](https://imgur.com/s4Zj6dG.png)
 ![](https://imgur.com/gAV8ptM.png)
 
-and that's about as pretty as the graphs get.
-
-![](https://imgur.com/b6cZKf8.png)
+and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
 
 ## Statistical Models and Analysis
+
+![](https://imgur.com/b6cZKf8.png)
+![](https://imgur.com/ta4GcZv)
 
 ## Machine Learning
 
