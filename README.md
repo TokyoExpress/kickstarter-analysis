@@ -54,7 +54,7 @@ and that's about as pretty as the graphs get. In the next section we dive deep i
 ## Statistical Models and Analysis
 
 ![](https://imgur.com/b6cZKf8.png)
-![](https://imgur.com/ta4GcZv)
+![](https://imgur.com/ta4GcZv.png)
 
 ## Machine Learning
 
