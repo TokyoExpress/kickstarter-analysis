@@ -124,3 +124,4 @@ This graph displaying the relationship between starting month and success/failur
 ## Relevant Conclusions and Applications
 
 ## Next Steps
+In conclusion, our regression models and random forest machine learning do a mediocre job at predicting. There are no strong correlations that point to any solid conclusions and the machine learning predictions have a couple of false postives and false negatives. In the future, we will learn how to use different models to derive more evidence towards concrete results. To make the significance of our project outcome more convincing, we are planning to learn how to analyze our statistical models in greater depth, allowing us to better communicate any conclusions we are able to deduce. 
