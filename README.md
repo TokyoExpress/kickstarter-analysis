@@ -105,6 +105,9 @@ The percentage of success and failure will be more indicative of what leads to a
 The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters. Interestingly, the mode goal of successful and failed kickstarters were both the same at $5000.
 
 ![](https://imgur.com/s4Zj6dG.png)
+
+Based on the means of name length and blurb length, there seems to be little to no correlation between name length and kickstarter success or blurb length and kickstarter success, as the means of name length and blurb length for successes and the means of name length and blurb length for failures are quite similar.
+
 ![](https://imgur.com/gAV8ptM.png)
 
 and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
