@@ -102,7 +102,7 @@ The percentage of success and failure will be more indicative of what leads to a
 
 ![](https://imgur.com/h1uukuy.png)
 
-The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters.
+The measures of central tendency for the kickstarter goals may indicate that a higher goal leads to a decreased likelihood of success, based on the median goal, mean goal, and trimmed mean goal of failed kickstarters being significantly higher than that of successful kickstarters. Interestingly, the mode goal of successful and failed kickstarters were both the same at $5000.
 
 ![](https://imgur.com/s4Zj6dG.png)
 ![](https://imgur.com/gAV8ptM.png)
