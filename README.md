@@ -39,28 +39,7 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 
 The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkantharia/kickstarter-campaigns/data. It's a 32 MB dataset with 170731 unique projects, along with the following variables:
 
-<ul>
-  <li>ID</li>
-  <li>Name</li>
-  <li>Currency</li>
-  <li>Main Category</li>
-  <li>Subcategory</li>
-  <li>Launch Time</li>
-  <li>Deadline</li>
-  <li>Duration</li>
-  <li>Goal in USD</li>
-  <li>City</li>
-  <li>State</li>
-  <li>Country</li>
-  <li>Blurb Length</li>
-  <li>Name Length</li>
-  <li>Start Month</li>
-  <li>End Month</li>
-  <li>Start Quarter</li>
-  <li>End Quarter</li>
-  <li>Status (Successful/Failed)</li>
-  <li>Amount Pledged in USD</li>
-</ul>
+![](https://imgur.com/FIocTP0.png)
 
 Duplicate rows were removed and time-and-date formats for Launch Time and Deadline were converted to simple numbers in Excel. Somehow, there were no missing values for any of the 170,731 projects. With the dataset cleaned, we then moved on to narrowing down the variables.
 
@@ -99,13 +78,13 @@ After removing multicollinearity and irrelevant variables, we were left with the
 
 One final issue that would come up eventually was the discrepancy in success to failure ratio between our sample data and the population, which would lead to some trouble down the road in the Machine Learning section.
 
-![](https://imgur.com/8bmUfLs.png)
+![](https://imgur.com/gu6ewIg.png)
 
 But leaving that foreshadowing for now, we pressed on into looking for initial trends in Exploratory Insight.
 
 ## Exploratory Insight
 
-![](https://imgur.com/Sfp9Oad.png)
+![](https://imgur.com/LRb0vv0.png)
 
 The top five countries that had the most successes were either countries from Asia or Europe. This finding could indicate that citizens of each country may be more inclined to support kickstarters, European or Asian- based kickstarters could be more popular with the public, kickstarter-funding methods could be more popular in Asia or Europe, or there could be no correlation. 
 
@@ -113,7 +92,7 @@ The top five countries that had the most successes were either countries from As
 
 The categories with the highest amount of successes are (1) music, (2) film & video, and (3) publishing, all categories that pertain more to artistic ventures. The categories with the highest amount of failures are (1) technology, (2) food, and (3) film & video. Technology and food are distinct in terms of categorization. Based on this data, it is possible that artistic kickstarters will be more likely to be successful and kickstarters that pertain to technology or food may be more likely to fail. However, because film & video is also the top third failure, this may show that the factor in high successes or failures may depend on the number of the kickstarters in each category, which means a higher success or failure count. This muddles the clarity of what category may lead to a more succesful kickstarter.
 
-![](https://imgur.com/aHOTE8h.png)
+![](https://imgur.com/dQrWwa8.png)
 
 The percentage of success and failure will be more indicative of what leads to a successful kickstarter. Although music, film & video, and publishing had the highest success count, (1) comics, (2) dance, (3) publishing have the highest percentage of success. The kickstarters with the highest percentage of failure are (1) food, (2) journalism, (3) technology. There are some similarities with the percentage of success and failure versus the literal count of success and failure. Comics have the highest percentage of success while food has the highest percentage of failure. 
 
