@@ -66,6 +66,21 @@ Duplicate rows were removed and time-and-date formats for Launch Time and Deadli
 
 Many of the variables were easy to identify as being correlated with other variables. For example, Launch Time had a direct relationship with Deadline through the Duration variable (and the same for Start Month and End Month, which also happened to be closely related to Start Quarter and End Quarter). Similarly, City, State, Currency, and Country also shared a relationship, and Currency was an obvious choice for removal. City and State were also ultimately removed due to the lack of data within most of the levels. More on that in the next section.
 
+To confirm our suspicions, we simply had to check the correlation between the variables in question. Using the previous example, because we believed that Deadline and Launch Time were not both necessary to the project because they were closely linked, we ran the following:
+
+```R
+> cor(data$launched_at, data$deadline)
+[1] 0.9998613
+```
+
+A correlation of almost 1 meant that these variables were far too correlated to be both included in the model, so we decided to drop Deadline from the starting model. But just because Launch Time and Deadline were correlated through Duration did not mean that Duration was necessarily a bad variable. So we tested the correlation between Launch Time and Deadline:
+
+```R
+> cor(data$launched_at, data$duration)
+[1] -0.05183889
+```
+We were correct. Deadline was (mostly) independent of Launch Time, so it was allowed to stay in the model. So on and so forth until we were sure that all of our variables were independent and useful on their own, each bringing something different to the party.
+
 Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentage Funded. More on that in the next section as well. 
 
 After removing multicollinearity and irrelevant variables, we were left with the following model to start with:
