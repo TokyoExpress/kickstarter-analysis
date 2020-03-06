@@ -85,7 +85,7 @@ A correlation of almost 1 meant that these variables were far too correlated to 
 ```
 We were correct. Deadline was (mostly) independent of Launch Time, so it was allowed to stay in the model. So on and so forth until we were sure that all of our variables were independent and useful on their own, each bringing something different to the party.
 
-Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentage Funded. More on that in the next section as well. 
+Some variables were simply not helpful for the project, such as ID and Name. Other variables were counterproductive, such as Amount Pledged, which defeated the purpose of trying to predict success before the project finished its campaign. Amount Pledged was ultimately replaced with another variable: Percentage Funded. More on that in the next sections as well. 
 
 After removing multicollinearity and irrelevant variables, we were left with the following model to start with:
 
@@ -137,6 +137,8 @@ This graph displaying the relationship between starting month and success/failur
 
 ...and that's about as pretty as the graphs get. In the next section we dive deep into R, with a lot more statistics and less aesthetically pleasing visuals.
 
+Extra Notes: Why did we remove Subcategory, City, and State as variables? Well, we can't even show the graphs here because they're too cluttered, but there were over 100 levels for each of those variables. Essentially, there were some subcategories with a good amount of training data, but the vast majority were random subcategories and cities that only belonged to one or two projects, which would lead to **overfitting** later down the line. And we were comfortable removing them because we had better versions of them in the model, namely the Main Category and Country variables, where each level had a suitable amount of examples to work with.
+
 ## Statistical Models and Analysis
 
 Running multilinear regression on a binary response variable usually leads to muddled and not-too-impressive results, so the next question for us was: how can you quantify success or failure?
@@ -146,6 +148,8 @@ To answer that question, we replaced the Status variable with Percentage Funded,
 We began by generating scatter matrixes and heatmaps to give us an idea of which variables were most likely to prove useful in the model. And because we were careless, we realized that we forgot to remove Launch Time because it was heavily intertwined with Start Month, as shown below in the scatter matrix.
 
 ![](https://imgur.com/ONWAYQR.png)
+
+This graph may look pretty daunting but what we're really after is just any obvious patterns on the plots. Patterns between the x variables indicate a multicollinearity issue, while patterns between an x and the y variable indicate a possible trend to look into. And it looked like there weren't really any of those, so 
 ![](https://imgur.com/6KLe9v2.png)
 
 ## Machine Learning
