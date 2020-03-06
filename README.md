@@ -149,7 +149,62 @@ We began by generating scatter matrixes and heatmaps to give us an idea of which
 
 ![](https://imgur.com/ONWAYQR.png)
 
-This graph may look pretty daunting but what we're really after is just any obvious patterns on the plots. Patterns between the x variables indicate a multicollinearity issue, while patterns between an x and the y variable indicate a possible trend to look into. And it looked like there weren't really any of those, so 
+This graph may look pretty daunting but what we're really after is just any obvious patterns on the plots. Patterns between the x variables indicate a multicollinearity issue, while patterns between an x and the y variable indicate a possible trend to look into. And it looked like there weren't really any of those, so we checked the correlation matrix of the numerical variables:
+
+```R
+> cor(numerics)
+                launched_at      duration      goal_usd  start_month blurb_length   name_length percent_funded
+launched_at     1.000000000 -0.0518388879  0.0031828420  0.057145032 -0.102879638  0.0230973728   0.0032271150
+duration       -0.051838888  1.0000000000  0.0259268388  0.009222666  0.026420766 -0.0176895277   0.0001854683
+goal_usd        0.003182842  0.0259268388  1.0000000000  0.002731183 -0.003440994 -0.0057589789  -0.0006447432
+start_month     0.057145032  0.0092226664  0.0027311827  1.000000000 -0.032152307  0.0107324617   0.0033825942
+blurb_length   -0.102879638  0.0264207656 -0.0034409942 -0.032152307  1.000000000  0.1371042990  -0.0031606274
+name_length     0.023097373 -0.0176895277 -0.0057589789  0.010732462  0.137104299  1.0000000000   0.0007393314
+percent_funded  0.003227115  0.0001854683 -0.0006447432  0.003382594 -0.003160627  0.0007393314   1.0000000000
+```
+
+This graph shows the correlation between all variables on a scale from 0 to 1. You can see that every variable has a perfect correlation with itself. At this point we got a little worried, because the numbers we were concerned about (the bottom row) were very, *very* small. It was clear that Percentage Funded was far too nuanced of a variable to be influenced by our chosen predictors, so as final tests, we ran a basic stepwise regression to see which model it would pick:
+
+```R
+> mod0 = lm(y~1) # The most simple model: y versus 1
+> mod.upper = lm(y~x1+x2+x3+x4+x5+x6+x7+x8) # The most complex model: y versus all
+> step(mod0, scope = list (lower = mod0, upper = mod.upper)) # The step function will find the best middle ground
+Start:  AIC=3461112
+y ~ 1
+
+       Df  Sum of Sq        RSS     AIC
+<none>               1.0877e+14 3461112
++ x6    1 1.2445e+09 1.0877e+14 3461112
++ x1    1 1.1328e+09 1.0877e+14 3461112
++ x7    1 1.0866e+09 1.0877e+14 3461113
++ x8    1 5.9455e+07 1.0877e+14 3461114
++ x5    1 4.5215e+07 1.0877e+14 3461114
++ x3    1 3.7415e+06 1.0877e+14 3461114
++ x2   14 1.5628e+10 1.0875e+14 3461116
++ x4   21 3.5854e+09 1.0877e+14 3461149
+
+Call:
+lm(formula = y ~ 1)
+
+Coefficients:
+(Intercept)  
+      467.8 
+```
+
+And not too surprisingly, it chose the model with *none of our variables in it*. Which means that our entire model is unsuitable for any sort of regression with Percentage Funded as the response variable.
+
+As a final nail in the coffin, these are the stats for the full model: 
+
+```R
+Residual standard error: 25240 on 170688 degrees of freedom
+Multiple R-squared:  0.0002117,	Adjusted R-squared:  -2.845e-05 
+F-statistic: 0.8815 on 41 and 170688 DF,  p-value: 0.686
+```
+
+Meaning that our model explains 0.02117% of the variance in Percentage Funded. So we were forced to conclude that Percentage Funded was a big mistake. While discouraging, that's okay. It was a good try and it made sense at the time, and now we came out with valuable insight: this data is entirely insufficient at predicting a wide-range continuous number like Percentage Funded.
+
+
+
 ![](https://imgur.com/6KLe9v2.png)
 
 ## Machine Learning
