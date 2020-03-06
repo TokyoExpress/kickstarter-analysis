@@ -115,7 +115,7 @@ Using Excel, we created visuals that would help us to gauge which variables woul
 
 The top five countries that had the most successes were either countries from Asia or Europe. This finding could indicate that citizens of each country may be more inclined to support kickstarters, European or Asian- based kickstarters could be more popular with the public, kickstarter-funding methods could be more popular in Asia or Europe, or there could be no correlation. 
 
-![](https://imgur.com/agodkO1.png)
+![](https://imgur.com/6QCiJ44.png)
 
 The categories with the highest amount of successes are (1) music, (2) film & video, and (3) publishing, all categories that pertain more to artistic ventures. The categories with the highest amount of failures are (1) technology, (2) food, and (3) film & video. Technology and food are distinct in terms of categorization. Based on this data, it is possible that artistic kickstarters will be more likely to be successful and kickstarters that pertain to technology or food may be more likely to fail. However, because film & video is also the top third failure, this may show that the factor in high successes or failures may depend on the number of the kickstarters in each category, which means a higher success or failure count. This muddles the clarity of what category may lead to a more succesful kickstarter.
 
