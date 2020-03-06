@@ -39,6 +39,31 @@ Kickstarter has been one of the premiere crowdfunding platforms since its launch
 
 The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkantharia/kickstarter-campaigns/data. It's a 32 MB dataset with 170731 unique projects, along with the following variables:
 
+<ul>
+  <li>ID</li>
+  <li>Name</li>
+  <li>Currency</li>
+  <li>Main Category</li>
+  <li>Subcategory</li>
+  <li>Launch Time</li>
+  <li>Deadline</li>
+  <li>Duration</li>
+  <li>Goal in USD</li>
+  <li>City</li>
+  <li>State</li>
+  <li>Country</li>
+  <li>Blurb Length</li>
+  <li>Name Length</li>
+  <li>Start Month</li>
+  <li>End Month</li>
+  <li>Start Quarter</li>
+  <li>End Quarter</li>
+  <li>Status (Successful/Failed)</li>
+  <li>Amount Pledged in USD</li>
+</ul>
+
+Which looks like this pixelated mess in the R Data Viewer:
+
 ![](https://imgur.com/FIocTP0.png)
 
 Duplicate rows were removed and time-and-date formats for Launch Time and Deadline were converted to simple numbers in Excel. Somehow, there were no missing values for any of the 170,731 projects. With the dataset cleaned, we then moved on to narrowing down the variables.
