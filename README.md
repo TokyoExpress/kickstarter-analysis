@@ -103,11 +103,13 @@ After removing multicollinearity and irrelevant variables, we were left with the
 
 One final issue that would come up eventually was the discrepancy in success to failure ratio between our sample data and the population, which would lead to some trouble down the road in the Machine Learning section.
 
-![](https://imgur.com/gu6ewIg.png)
+![](https://imgur.com/dBcs6q5.png)
 
 But leaving that foreshadowing for now, we pressed on into looking for initial trends in Exploratory Insight.
 
 ## Exploratory Insight
+
+Using Excel, we created visuals that would help us to gauge which variables would be the most helpful or interesting in the scope of this project.
 
 ![](https://imgur.com/LRb0vv0.png)
 
